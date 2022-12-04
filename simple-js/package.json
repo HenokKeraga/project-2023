@@ -1,0 +1,8 @@
+{
+  "dependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "start": "node core.js"
+  }
+}
