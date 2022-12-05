@@ -1,0 +1,64 @@
+
+//import java.time.LocalDate
+//import java.time.format.DateTimeFormatter
+//
+//var  dateTimeFormatter= DateTimeFormatter.ofPattern("dd/MM/yyyy")
+//
+//def localDate = LocalDate.parse("01/07/2015",dateTimeFormatter)
+//
+//println("Hello " + localDate.toString())
+//
+//println hello()
+//
+//def hello(){
+//    println 'Hi'
+//      5 * 8
+//}
+class Person{
+    def name;
+    Person(name){
+        this.name=name
+    }
+    def useClosure( Closure cl){
+        c1.
+    }
+}
+//def n= new Person("henok")
+//println n.name;
+
+var  c = { a->
+    println 'hello'
+    4
+}
+
+
+def oneArgsMethod(closure){
+    closure()*3;
+}
+println oneArgsMethod {
+    println 'closure '
+    12
+}
+
+//plugins {
+//    id :'java'
+//}
+
+def twoArgsMethod (factor , cl){
+    cl()*factor;
+}
+
+println twoArgsMethod(4) {
+    println 'two args method '
+    9
+}
+[1,2,3].each {
+    println it
+}
+
+[1,2,3].each (e ->println e)
+
+[1,2,3].forEach {
+    println it
+}
+[1,2,3].forEach(e->println e)
