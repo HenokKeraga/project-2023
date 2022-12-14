@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="GradleMigrationSettings" migrationVersion="1" />
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
@@ -12,9 +13,12 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
+            <option value="$PROJECT_DIR$/files" />
             <option value="$PROJECT_DIR$/leet-code" />
             <option value="$PROJECT_DIR$/list-data-structure" />
             <option value="$PROJECT_DIR$/map-data-structure" />
+            <option value="$PROJECT_DIR$/net" />
+            <option value="$PROJECT_DIR$/reactor" />
             <option value="$PROJECT_DIR$/set-data-structure" />
             <option value="$PROJECT_DIR$/stream-java" />
             <option value="$PROJECT_DIR$/tree-data-structure" />

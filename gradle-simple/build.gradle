@@ -1,3 +1,4 @@
+import org.gradle.plugin.use.internal.PluginRequestCollector
 
 //import java.time.LocalDate
 //import java.time.format.DateTimeFormatter
@@ -19,8 +20,9 @@ class Person{
     Person(name){
         this.name=name
     }
-    def useClosure( Closure cl){
-        c1.
+    def useClosure(  cl){
+        c1 = this
+        c1()
     }
 }
 //def n= new Person("henok")
@@ -62,3 +64,11 @@ println twoArgsMethod(4) {
     println it
 }
 [1,2,3].forEach(e->println e)
+
+//def v =new PluginRequestCollector.PluginDependencySpecImpl()
+//v.apply(true)
+//v.version()
+logger.info("logging")
+apply {
+    println 'hello'
+}

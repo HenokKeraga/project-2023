@@ -1,0 +1,13 @@
+plugins{
+    id 'java'
+    id "io.spring.dependency-management" version "1.0.7.RELEASE"
+}
+dependencyManagement {
+    imports {
+        mavenBom "io.projectreactor:reactor-bom:2020.0.4"
+    }
+}
+
+dependencies {
+    implementation 'io.projectreactor:reactor-core'
+}

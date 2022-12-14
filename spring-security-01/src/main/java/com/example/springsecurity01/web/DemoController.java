@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class DemoController {
 
-    @GetMapping(value = "/demo",produces ="text/plain" )
+    @GetMapping(value = "/demo" )
     public String demo(HttpServletRequest request){
 //        var header = request.getHeader();
         return "demo";
